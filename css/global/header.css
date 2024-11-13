@@ -1,13 +1,13 @@
 .header-bg {
   background-color: var(--cor-12);
 }
+
 .header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -19,8 +19,8 @@
 }
 
 .header-menu a {
-  padding: 16px 0px;
   display: inline-block;
+  padding: 16px 0px;
   position: relative;
 }
 
@@ -50,14 +50,14 @@
     border-radius: 4px;
   }
   .header-menu a:hover {
-    background: var(--cor-10);
+    background-color: var(--cor-10);
   }
-  .header-menu a:after {
+  .header a:after {
     display: none;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .header-menu {
     gap: 12px;
   }
